@@ -12,10 +12,10 @@
 const portfolioData = [
   {
     id: 1,
-    title: "Brand Identity — Aura Studio",
+    title: "Brandbook — Bentemo",
     desc: "Complete brand identity system including logo, color palette, typography, and brand guidelines.",
     category: "branding",
-    pdf: "portfolio/project1.pdf",
+    pdf: "portfolio/bentemo concept brandbook.pdf",
     thumb: "thumbnails/project1.jpg"
   },
   {
