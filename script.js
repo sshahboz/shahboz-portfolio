@@ -16,7 +16,7 @@ const portfolioData = [
     desc: "Complete brand identity system including logo, color palette, typography, and brand guidelines.",
     category: "branding", 
     pdf: "portfolio/project1.pdf",
-    thumb: "thumbnails/project1.jpg"
+    thumb: "thumbnails/project1.png"
   },
   {
      id: 2,
