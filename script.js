@@ -19,12 +19,12 @@ const portfolioData = [
     thumb: "thumbnails/project1.jpg"
   },
   {
-    id: 2,
-    title: "Editorial Poster Series",
-    desc: "A series of typographic editorial posters exploring modern minimalism and negative space.",
-    category: "posters",
-    pdf: "portfolio/project2.pdf",
-    thumb: "thumbnails/project2.jpg"
+     id: 2,
+    title: "Mobile App UI — Limer App",
+    desc: "Clean, modern UI design for a fitness mobile application.",
+    category: "ui",
+    pdf: "portfolio/limerapp.pdf",
+    thumb: "thumbnails/project4.jpg"
   },
   {
     id: 3,
