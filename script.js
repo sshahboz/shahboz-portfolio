@@ -14,8 +14,8 @@ const portfolioData = [
     id: 1,
     title: "Brandbook — Bentemo",
     desc: "Complete brand identity system including logo, color palette, typography, and brand guidelines.",
-    category: "branding",
-    pdf: "portfolio/bentemo concept brandbook.pdf",
+    category: "branding", 
+    pdf: "portfolio/bentemo.pdf",
     thumb: "thumbnails/project1.jpg"
   },
   {
