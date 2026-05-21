@@ -24,7 +24,7 @@ const portfolioData = [
     desc: "Clean, modern UI design for a fitness mobile application.",
     category: "ui",
     pdf: "portfolio/project2.pdf",
-    thumb: "thumbnails/project4.jpg"
+    thumb: "thumbnails/project2.jpg"
   },
 ];
 
