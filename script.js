@@ -15,7 +15,7 @@ const portfolioData = [
     title: "Brandbook — Bentemo",
     desc: "Complete brand identity system including logo, color palette, typography, and brand guidelines.",
     category: "branding", 
-    pdf: "portfolio/bentemo.pdf",
+    pdf: "portfolio/project1.pdf",
     thumb: "thumbnails/project1.jpg"
   },
   {
@@ -23,7 +23,7 @@ const portfolioData = [
     title: "Mobile App UI — Limer App",
     desc: "Clean, modern UI design for a fitness mobile application.",
     category: "ui",
-    pdf: "portfolio/limerapp.pdf",
+    pdf: "portfolio/project2.pdf",
     thumb: "thumbnails/project4.jpg"
   },
 ];
