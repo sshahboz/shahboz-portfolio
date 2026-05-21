@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Safoyev Shahboz — Graphic Designer based in Tashkent. Brand identity, visual storytelling, and digital design." />
+  <meta name="keywords" content="graphic designer, brand identity, Tashkent, visual design, portfolio" />
+  <meta name="author" content="Safoyev Shahboz" />
+  <meta property="og:title" content="Shahboz Safoyev — Graphic Designer" />
+  <meta property="og:description" content="Creative graphic designer passionate about visual storytelling and branding." />
+  <title>Shahboz Safoyev — Graphic Designer</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Cursor follower -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ─── NAV ─── -->
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">SS<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#works">Works</a></li>
+      <li><a href="#info">Info</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+        <span class="theme-icon">◐</span>
+      </button>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose">✕</button>
+    <ul>
+      <li><a href="#about" class="mob-link">About</a></li>
+      <li><a href="#works" class="mob-link">Works</a></li>
+      <li><a href="#info" class="mob-link">Info</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-text">DESIGN</div>
+
+    <div class="hero-inner">
+      <div class="hero-left">
+        <div class="hero-tag reveal-up">
+          <span class="dot"></span> Available for projects
+        </div>
+        <h1 class="hero-name reveal-up delay-1">
+          Safoyev<br /><em>Shahboz</em>
+        </h1>
+        <p class="hero-sub reveal-up delay-2">Graphic Designer</p>
+        <p class="hero-intro reveal-up delay-3">
+          Creative graphic designer passionate about visual storytelling, branding, 
+          and digital design. I craft impactful visual experiences that connect 
+          brands with their audience through thoughtful, purposeful aesthetics.
+        </p>
+        <div class="hero-actions reveal-up delay-4">
+          <a href="#works" class="btn-primary">View My Work</a>
+          <a href="#about" class="btn-ghost">About Me ↓</a>
+        </div>
+
+        <div class="hero-quick-facts reveal-up delay-5">
+          <div class="fact-card">
+            <span class="fact-icon">📍</span>
+            <div>
+              <p class="fact-label">Location</p>
+              <p class="fact-value">Tashkent, UZ</p>
+            </div>
+          </div>
+          <div class="fact-card">
+            <span class="fact-icon">✦</span>
+            <div>
+              <p class="fact-label">Experience</p>
+              <p class="fact-value">3+ Years</p>
+            </div>
+          </div>
+          <div class="fact-card">
+            <span class="fact-icon">◈</span>
+            <div>
+              <p class="fact-label">Specialization</p>
+              <p class="fact-value">Brand & UI</p>
+            </div>
+          </div>
+          <div class="fact-card">
+            <span class="fact-icon">◉</span>
+            <div>
+              <p class="fact-label">Software</p>
+              <p class="fact-value">Ai · Ps · Figma</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right reveal-fade delay-2">
+        <div class="photo-frame">
+          <div class="photo-placeholder">
+            <div class="photo-initials">SS</div>
+            <p class="photo-hint">Add your photo to<br /><code>images/profile.jpg</code></p>
+          </div>
+          <img src="images/profile.jpg" alt="Shahboz Safoyev" class="profile-photo" loading="lazy" onerror="this.style.display='none'" />
+          <div class="photo-decoration"></div>
+        </div>
+        <div class="hero-stat-block">
+          <div class="stat">
+            <span class="stat-num">30+</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">21</span>
+            <span class="stat-label">Years Old</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">∞</span>
+            <span class="stat-label">Creativity</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="about" id="about">
+    <div class="section-label">
+      <span class="section-num">01</span>
+      <span class="section-title">About Me</span>
+    </div>
+    <div class="about-inner">
+      <div class="about-left">
+        <h2 class="about-heading reveal-up">
+          Crafting stories<br />through <em>visuals</em>
+        </h2>
+        <div class="about-bio reveal-up delay-1">
+          <p>
+            I'm Shahboz — a 21-year-old graphic designer based in Tashkent, Uzbekistan. 
+            My design journey started with a deep curiosity for how visuals communicate 
+            ideas, evoke emotion, and build identity.
+          </p>
+          <p>
+            I specialize in brand identity, digital design, and visual storytelling — 
+            working with startups, creatives, and businesses to shape how they're 
+            perceived in the world. Every project is a conversation between concept and craft.
+          </p>
+          <blockquote class="design-philosophy">
+            "Design is not decoration — it's the language brands speak before a single word is read."
+          </blockquote>
+        </div>
+      </div>
+      <div class="about-right reveal-fade delay-2">
+        <h3 class="skills-heading">Skills & Tools</h3>
+        <div class="skills-grid">
+          <div class="skill-item" data-level="95">
+            <span class="skill-name">Adobe Illustrator</span>
+            <div class="skill-bar"><div class="skill-fill" data-w="95"></div></div>
+          </div>
+          <div class="skill-item" data-level="90">
+            <span class="skill-name">Adobe Photoshop</span>
+            <div class="skill-bar"><div class="skill-fill" data-w="90"></div></div>
+          </div>
+          <div class="skill-item" data-level="85">
+            <span class="skill-name">Figma</span>
+            <div class="skill-bar"><div class="skill-fill" data-w="85"></div></div>
+          </div>
+          <div class="skill-item" data-level="88">
+            <span class="skill-name">Brand Identity</span>
+            <div class="skill-bar"><div class="skill-fill" data-w="88"></div></div>
+          </div>
+          <div class="skill-item" data-level="82">
+            <span class="skill-name">Social Media Design</span>
+            <div class="skill-bar"><div class="skill-fill" data-w="82"></div></div>
+          </div>
+          <div class="skill-item" data-level="80">
+            <span class="skill-name">Typography</span>
+            <div class="skill-bar"><div class="skill-fill" data-w="80"></div></div>
+          </div>
+          <div class="skill-item" data-level="75">
+            <span class="skill-name">UI Design</span>
+            <div class="skill-bar"><div class="skill-fill" data-w="75"></div></div>
+          </div>
+          <div class="skill-item" data-level="85">
+            <span class="skill-name">Photo Editing</span>
+            <div class="skill-bar"><div class="skill-fill" data-w="85"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── WORKS ─── -->
+  <section class="works" id="works">
+    <div class="section-label">
+      <span class="section-num">02</span>
+      <span class="section-title">Portfolio</span>
+    </div>
+    <div class="works-header">
+      <h2 class="works-heading reveal-up">Selected <em>Works</em></h2>
+      <p class="works-sub reveal-up delay-1">Click any project to view full PDF</p>
+    </div>
+
+    <div class="filter-bar reveal-up delay-2">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="branding">Branding</button>
+      <button class="filter-btn" data-filter="posters">Posters</button>
+      <button class="filter-btn" data-filter="social">Social Media</button>
+      <button class="filter-btn" data-filter="ui">UI Design</button>
+      <button class="filter-btn" data-filter="illustration">Illustration</button>
+      <button class="filter-btn" data-filter="other">Other</button>
+    </div>
+
+    <div class="portfolio-grid" id="portfolioGrid">
+      <!-- Generated by JS from portfolioData -->
+    </div>
+
+    <div class="works-note reveal-up">
+      <p>📁 Add your PDF files to <code>/portfolio/</code> and thumbnails to <code>/thumbnails/</code><br/>
+      Edit <code>portfolioData</code> in <code>script.js</code> to update your projects.</p>
+    </div>
+  </section>
+
+  <!-- ─── INFO ─── -->
+  <section class="info-section" id="info">
+    <div class="section-label">
+      <span class="section-num">03</span>
+      <span class="section-title">Quick Info</span>
+    </div>
+    <h2 class="info-heading reveal-up">The <em>essentials</em></h2>
+    <div class="info-grid">
+      <div class="info-card reveal-up">
+        <div class="info-card-icon">◎</div>
+        <h3>Age</h3>
+        <p>21 years old</p>
+      </div>
+      <div class="info-card reveal-up delay-1">
+        <div class="info-card-icon">📍</div>
+        <h3>Location</h3>
+        <p>Tashkent,<br/>Uzbekistan</p>
+      </div>
+      <div class="info-card reveal-up delay-2">
+        <div class="info-card-icon">◈</div>
+        <h3>Languages</h3>
+        <p>Uzbek<br/>Russian<br/>English</p>
+      </div>
+      <div class="info-card reveal-up delay-3">
+        <div class="info-card-icon">✦</div>
+        <h3>Education</h3>
+        <p>Design &<br/>Visual Arts</p>
+      </div>
+      <div class="info-card reveal-up delay-4">
+        <div class="info-card-icon">◉</div>
+        <h3>Experience</h3>
+        <p>3+ Years<br/>Freelance & Agency</p>
+      </div>
+      <div class="info-card reveal-up delay-5">
+        <div class="info-card-icon">⬡</div>
+        <h3>Tools</h3>
+        <p>Illustrator · Photoshop<br/>Figma · InDesign</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section class="contact" id="contact">
+    <div class="section-label">
+      <span class="section-num">04</span>
+      <span class="section-title">Contact</span>
+    </div>
+    <div class="contact-inner">
+      <div class="contact-left reveal-up">
+        <h2 class="contact-heading">
+          Let's create<br /><em>something great</em>
+        </h2>
+        <p class="contact-sub">
+          Available for freelance projects, full-time positions, and creative collaborations.
+        </p>
+        <a href="mailto:shahboz@example.com" class="email-link">
+          shahboz@example.com
+        </a>
+        <div class="contact-links">
+          <a href="https://t.me/shahboz" class="contact-social" target="_blank" rel="noopener">
+            <span class="social-icon">✈</span> Telegram
+          </a>
+          <a href="https://instagram.com/shahboz" class="contact-social" target="_blank" rel="noopener">
+            <span class="social-icon">◎</span> Instagram
+          </a>
+          <a href="https://behance.net/shahboz" class="contact-social" target="_blank" rel="noopener">
+            <span class="social-icon">◈</span> Behance
+          </a>
+          <a href="https://linkedin.com/in/shahboz" class="contact-social" target="_blank" rel="noopener">
+            <span class="social-icon">◉</span> LinkedIn
+          </a>
+        </div>
+        <a href="images/cv.pdf" download class="btn-primary cv-btn">
+          ↓ Download CV
+        </a>
+      </div>
+      <div class="contact-right reveal-fade delay-2">
+        <div class="contact-visual">
+          <div class="cv-decoration">
+            <div class="cv-line"></div>
+            <p>Shahboz Safoyev</p>
+            <p class="cv-role">Graphic Designer</p>
+            <div class="cv-line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <span class="footer-logo">SS<span>.</span></span>
+        <span class="footer-role">Graphic Designer</span>
+      </div>
+      <p class="footer-copy">© 2025 Safoyev Shahboz. All rights reserved.</p>
+      <a href="#hero" class="back-to-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
